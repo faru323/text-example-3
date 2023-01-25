@@ -19,21 +19,19 @@
       }
     }
     &__right {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      column-gap: 20px;
 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        column-gap: 20px;
-      
-        &__icons{
-            color:rgb(196, 196, 196);
-            transition:0.3s;
-            font-size: large;
-            &:hover{
-                color: #ffb606;
-            }
+      &__icons {
+        color: rgb(196, 196, 196);
+        transition: 0.3s;
+        font-size: large;
+        &:hover {
+          color: #ffb606;
         }
-
+      }
     }
   }
 }
