@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './add.scss'
 import { Formik, Form, Field } from 'formik';
  import * as Yup from 'yup';
 
@@ -25,8 +25,9 @@ function Index() {
           .required('Required'),
       });
   return (
-    <>
+    <div className='formmm'>
     <div className='formContainer'>
+    <div className='line'></div>
      <h1>Add Course</h1>
      <Formik
        initialValues={{
@@ -80,7 +81,7 @@ function Index() {
      </Formik>
    </div>
 
-    </>
+    </div>
   )
 }
 

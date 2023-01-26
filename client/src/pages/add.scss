@@ -1,0 +1,46 @@
+.formmm{
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    .formContainer{
+        width: 70%;
+        height: 500px;
+        margin-top: 100px;
+        display: flex;
+  row-gap: 20px;
+        flex-direction: column;
+    
+        align-items: center;
+        .line{
+            width: 300px;
+            height: 3px;
+            background-color: #ffb606;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            row-gap: 20px;
+            .input{
+                padding: 0px 10px;
+                width: 500px;
+                height: 40px;
+                &:focus {
+                    border:1px solid #ffb606;
+                    outline: none;
+
+                }
+
+            }
+            .addBtn{
+                width: 300px;
+                height: 30px;
+                color: white;
+                background-color: #ffb606;
+            }
+        }
+    }
+}
